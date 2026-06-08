@@ -1,7 +1,10 @@
 # Core Web Framework and Routing
 Flask==3.0.2
 
-# WSGI Toolkit and Cryptographic/Password Hashing Security UTils
+# WSGI Production HTTP Server for Render
+gunicorn==21.2.0
+
+# WSGI Toolkit and Cryptographic/Password Hashing Security Utils
 Werkzeug==3.0.1
 
 # HTML Template Rendering Engine
