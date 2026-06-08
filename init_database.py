@@ -3,7 +3,7 @@ from werkzeug.security import generate_password_hash
 
 def initialize_system_database():
     # Connect to local SQLite database engine
-    conn = sqlite3.connect('collaboration.db')
+   conn = sqlite3.connect('/data/collaboration.db')
     cursor = conn.cursor()
     
     print("[*] Building infrastructure schema tables...")
